@@ -6,3 +6,8 @@ Don't cram all changes locally into one commit.
 Group similar changes into one commit, but ensure that the commit doesn't get too big.
 This would result in it getting hard for you and your team when keeping track of the changes.
 Make use of the staging area concept to ensure that only necessary files for that commit are added and tracked.
+
+Even if you are commiting one file, it could be split into multiple sections where a set of changes could be related to one topic while the other set of changes could be related to some other topic.
+GitHub allows us to split the commits of a particular file using the git add -p (patch) filename and here we can choose which parts to include and which parts to not for that particular commit.
+It checks all the changes done from the previous commit till now and asks you for each line change or delete.
+In case there is an unchanged line between 2 changes, then you can split it into 2 hunks using the s (split) option. (Example shown with the first 2 lines (First Hunk))
