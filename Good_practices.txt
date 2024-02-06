@@ -1,3 +1,7 @@
+First Hunk 
+
+A bunch of lines here.
+
 Don't cram all changes locally into one commit.
 Group similar changes into one commit, but ensure that the commit doesn't get too big.
 This would result in it getting hard for you and your team when keeping track of the changes.
