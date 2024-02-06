@@ -11,3 +11,7 @@ Even if you are commiting one file, it could be split into multiple sections whe
 GitHub allows us to split the commits of a particular file using the git add -p (patch) filename and here we can choose which parts to include and which parts to not for that particular commit.
 It checks all the changes done from the previous commit till now and asks you for each line change or delete.
 In case there is an unchanged line between 2 changes, then you can split it into 2 hunks using the s (split) option. (Example shown with the first 2 lines (First Hunk))
+
+Commit Messages - 
+Subject: Concise summary of what happened (NOTE - In csse you find it hard to write something concise, then too many topics have been combined for the commit)
+Body: More detailed explaination which talks about what is new from before, what is the reason for the change, any particular remarks or known bugs or anything extra that has to be known.
