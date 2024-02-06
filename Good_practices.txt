@@ -15,3 +15,10 @@ In case there is an unchanged line between 2 changes, then you can split it into
 Commit Messages - 
 Subject: Concise summary of what happened (NOTE - In csse you find it hard to write something concise, then too many topics have been combined for the commit)
 Body: More detailed explaination which talks about what is new from before, what is the reason for the change, any particular remarks or known bugs or anything extra that has to be known.
+
+TIP - Type git commit and hit enter and a new commit message window would be shown. 
+The first line would be the subject and leave a line below and the next sentence would be the body of that commit
+
+Branching Strategies - 
+Common convention is no direct commits. Only through merging or rebase or PRs.
+Short-Lived branches - Based on long running branches and usually deleted when the feature or bug fix or the goal of the short lived branch has been merged with the main branch.
