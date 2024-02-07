@@ -29,3 +29,10 @@ A Pull Request invites reviewers to provide feedback before merging repos.
 Once the PR is approved, you can merge it to the main branch.
 With PRs, you can contribute to read only repositories.
 Note that Pull Requests are always focused on branches and not on individual commits.
+
+
+
+Forks - 
+Personal copy of a GIT repository
+Make changes in the local version and make a PR to merge with the main repository.
+In case of any changes, they can suggest changes to be made before merging with the main repository.
