@@ -22,3 +22,10 @@ The first line would be the subject and leave a line below and the next sentence
 Branching Strategies - 
 Common convention is no direct commits. Only through merging or rebase or PRs.
 Short-Lived branches - Based on long running branches and usually deleted when the feature or bug fix or the goal of the short lived branch has been merged with the main branch.
+
+Pull Requests - 
+Communicating about changes and reviewing code.
+A Pull Request invites reviewers to provide feedback before merging repos.
+Once the PR is approved, you can merge it to the main branch.
+With PRs, you can contribute to read only repositories.
+Note that Pull Requests are always focused on branches and not on individual commits.
