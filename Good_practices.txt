@@ -30,9 +30,31 @@ Once the PR is approved, you can merge it to the main branch.
 With PRs, you can contribute to read only repositories.
 Note that Pull Requests are always focused on branches and not on individual commits.
 
-
-
 Forks - 
 Personal copy of a GIT repository
 Make changes in the local version and make a PR to merge with the main repository.
 In case of any changes, they can suggest changes to be made before merging with the main repository.
+
+Merge Conflicts - 
+When you merge changes (Integrating) from Different sources
+Most of the times, GIT will figure things on its own. 
+
+1. When you change the exact line of code in 2 different commits, git doesn't know which one to prefer when.
+
+When a conflict has occured, git will let you know..
+
+You can always undo a merge conflict and return to the previous state : git merge --abort or git rebase --abort
+
+Merge vs Rebase - 
+2 Most common ways to integrate branches and add in your work to the main branch.
+    Merge :
+        Git looks for 3 commits - Common Ancestor (The last common commit to both the commits on the 2 branches (the one you're working on and the one you want to commit)), last commit on both the branches 
+        The simplest form of merge is called the fast-forward merge where both the branches share common commits.
+    
+    Rebase : 
+        git rebase branchname
+        Will temporarily remove the commits after the common ancestor commit.
+        Will merge your commits from the commit ancestor and then place the removed commits after that.
+        This will restructure the commit history.
+        Do not use rebase on commits that you've already pushed or shared on a remote repository.
+        
